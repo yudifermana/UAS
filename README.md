@@ -72,11 +72,8 @@ Oc("clear")
 
 Output tambah_data
 
-
-
-
-
-
+![kodingan 1 1 uas](https://user-images.githubusercontent.com/115516653/211487069-38be1862-b0a9-4924-9cd7-089eeef8e545.png)
+![kodingan 1 2 uas](https://user-images.githubusercontent.com/115516653/211487126-88f69795-a156-46fc-aa88-94b9bd7a8132.png)
 
 
 Penjelasan
@@ -85,7 +82,7 @@ Penjelasan
 
 ubah_data
 
-```python
+```Python
 elif c.lower() == 'u':
 u = open('view/database.txt', 'r').read().splitlines()
 target = input(' Masukan Nama : ')
@@ -162,16 +159,11 @@ new2.close()
 
 Output ubah_data
 
-
-
-
-
-
-
+![kodingan 2 uas](https://user-images.githubusercontent.com/115516653/211488306-ab7cd146-7166-4ea2-8d6e-13828d27ebe7.png)
 
 Penjelasan
 
-* Disini kita hampir sama dengan yang hapus, kita gunakan inputan nama untuk mengubah NIM, Nilai Tugas, Ujian Tengah Semester(UTS), ataupun Ujian Akhir Semester(UAS)\
+* Disini kita hampir sama dengan yang hapus, kita gunakan inputan nama untuk mengubah NIM, Nilai Tugas, Ujian Tengah Semester(UTS), ataupun Ujian Akhir Semester(UAS)
 
 * Lalu setelah kita memasukkan nama maka dictionary akan mengeksekusi program menggunakan keys untuk mencari data dari nama mahasiswa tersebut
 
@@ -211,6 +203,11 @@ for i in new:
 new2.close()
 ```
 
+Output hapus_data
+
+![kodingan 3 uas](https://user-images.githubusercontent.com/115516653/211488741-c29f9503-9687-441c-a3e9-1bfb58940de6.png)
+
+
 Penjelasan
 
 * Def hapus :
@@ -245,12 +242,10 @@ for l in i:
             '║ ') + (uas).ljust(6) + ('║ ') + (akhir).ljust(6) + ('║'))
 P(" ╚══════════════════╩══════════════════╩═══════╩═══════╩═══════╩═══════╝")
 ```
+
 Output cari_data
 
-
-
-
-
+![kodingan 4 uas](https://user-images.githubusercontent.com/115516653/211489045-1a0a76df-9a7e-4845-a7f8-3fa19c37d246.png)
 
 view_nilai.py berisi modul untuk :
 
@@ -260,7 +255,7 @@ Fungsinya sama dengan Def tambahkan
 
 cetak_daftar_nilai
 
-```python 
+```python
 elif c.lower() == 'l':
 i = open('view/database.txt', 'r').read().splitlines()
 P(" ╔═════════════════════════════════════════════════════════════════════╗")
@@ -282,9 +277,7 @@ P(" ╚══════════════════╩═════�
 
 Output cetak_daftar_nilai
 
-
-
-
+![kodingan 5 uas](https://user-images.githubusercontent.com/115516653/211489346-f4471bbb-0c90-41e5-9f1d-adbb77f0596a.png)
 
 cetak_hasil_pencarian
 
@@ -311,18 +304,17 @@ P(" ╚══════════════════╩═════�
 
 Output cetak_hasil_pencarian
 
-
-
-
+![kodingan 6 uas](https://user-images.githubusercontent.com/115516653/211489612-d2f36ae8-e538-4c6a-8eb6-14f41fecb8b1.png)
 
 input_nilai.py berisi modul untuk :
 
 input_data yang meminta pengguna memasukan data
 
-
-
+![kodingan databest](https://user-images.githubusercontent.com/115516653/211490263-1f0dc532-ffe1-4c46-a61b-debddef5ef66.png)
 
 Output input_nilai.py
+
+![kodingan 7](https://user-images.githubusercontent.com/115516653/211489840-64339885-dae2-497d-8a13-a2bb4e27999c.png)
 
 main.py berisi program uatama menu pilihan yang memanggil semua yang ada.
 
@@ -518,4 +510,4 @@ while True:
 
 Output main.py
 
-![uas penutup](https://user-images.githubusercontent.com/115516653/211434890-427bb00a-f6e7-4c5c-b257-a2bff416e3c4.png)
+![uas penutup](https://user-images.githubusercontent.com/115516653/211483457-2c40c5c3-76f7-41a2-966e-d72ede768dda.png)
