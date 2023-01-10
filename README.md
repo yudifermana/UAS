@@ -511,3 +511,6 @@ while True:
 Output main.py
 
 ![uas penutup](https://user-images.githubusercontent.com/115516653/211483457-2c40c5c3-76f7-41a2-966e-d72ede768dda.png)
+
+
+https://youtu.be/WJFvb5bMrUs
