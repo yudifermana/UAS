@@ -17,7 +17,7 @@ daftar_nilai.py berisi modul untuk :
 
 tambah_data
 
-```python
+```
     elif c.lower() == 't':
 i = open('view/database.txt', 'a')
 P(" Tambah Kontak")
